@@ -9,7 +9,6 @@ jobs:
       mode: snapshot
       version-prerelease: "${commit_digest}"
       version-commit-message: "build ${version}"
-    secrets: inherit
   component-descriptor:
     runs-on: ubuntu-latest
     needs:
